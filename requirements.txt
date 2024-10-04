@@ -1,4 +1,4 @@
-impacket @ git+https://github.com/jsherwood0/impacket.git
+impacket @ git+https://github.com/jsherwood0/impacket.git@custom-local-dependencies
 beautifulsoup4
 lxml
 pyasn1
