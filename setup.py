@@ -25,7 +25,7 @@ setup(name='pywerview',
         "pywerview", "pywerview.*"
     ]),
     install_requires=[
-        'https://github.com/jsherwood0/impacket.git',
+        'git+https://github.com/jsherwood0/impacket.git',
         'beautifulsoup4',
         'lxml',
         'pyasn1',
