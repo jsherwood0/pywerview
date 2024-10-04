@@ -9,7 +9,7 @@ setup(name='pywerview',
     description='A Python port of PowerSploit\'s PowerView',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    dependency_links = ['https://github.com/SecureAuthCorp/impacket/tarball/master#egg=impacket-0.9.22'],
+    dependency_links = ['git+https://github.com/jsherwood0/impacket.git@custom-local-dependencies'],
     classifiers=[
         'Environment :: Console',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
@@ -25,7 +25,7 @@ setup(name='pywerview',
         "pywerview", "pywerview.*"
     ]),
     install_requires=[
-        'impacket>=0.9.22',
+        'https://github.com/jsherwood0/impacket.git@custom-local-dependencies',
         'beautifulsoup4',
         'lxml',
         'pyasn1',
