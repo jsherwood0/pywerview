@@ -9,7 +9,7 @@ setup(name='pywerview',
     description='A Python port of PowerSploit\'s PowerView',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    dependency_links = ['git+https://github.com/jsherwood0/impacket.git@custom-local-dependencies'],
+    dependency_links = [],
     classifiers=[
         'Environment :: Console',
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
