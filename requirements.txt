@@ -1,4 +1,4 @@
-impacket @ https://github.com/jsherwood0/impacket.git
+impacket @ git+https://github.com/jsherwood0/impacket.git
 beautifulsoup4
 lxml
 pyasn1
